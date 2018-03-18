@@ -1,0 +1,150 @@
+#ifndef DEFINE_H_INCLUDED
+#define DEFINE_H_INCLUDED
+
+/********************************/
+
+typedef struct id
+{
+    int caseX;
+    int caseY;
+}t_id;
+
+typedef struct fournisseur
+{
+    int qte_eau_distribuee;
+    t_id id_fournisseur;
+}t_fournisseur;
+
+/********************************/
+
+#define GAME_W 901
+#define GAME_H 701
+
+#define TAILLE_FENETRE_W 1024
+#define TAILLE_FENETRE_H 768
+
+#define TAILLE_POLICE 10
+
+#define GAME_POSX 112
+#define GAME_POSY 56
+
+#define NB_CASES_LIG 35
+#define NB_CASES_COL 45
+
+#define TAILLE_CASE 20
+
+#define TAILLE_CHAINE 256
+
+#define CAPACITE_CHATEAU 5000
+#define CAPACITE_CENTRALE 5000
+
+#define PROBABILITE_INCENDIE 2000
+#define DUREE_INCENDIE 250
+
+#define PROTEGEE 1
+#define PAS_PROTEGEE 0
+
+#define COUT_ROUTE 10
+#define COUT_HABITATION 1000
+#define COUT_CENTRALE 100000
+#define COUT_CHATEAU 100000
+#define COUT_CASERNE 150000
+
+#define PAUSE_DESACTIVEE 0
+#define PAUSE_ACTIVEE 1
+
+#define PAS_DU_TIMER 0.1
+
+#define CHARGER -1
+
+#define RAYON_INFLUENCE_CASERNE 20
+
+#define FOURNISSEUR_MAX 5
+
+#define ARGENT_INITIAL 500000
+
+#define IMPOTS_PAR_HABITANT 10
+
+#define MODE_COMMUNISTE 0
+#define MODE_CAPITALISTE 1
+
+#define VIDE 0
+#define ROUTE 1
+#define HABITATION 2
+#define CENTRALE 3
+#define CHATEAU 4
+#define CASERNE 5
+
+#define HABITATION_H 3
+#define HABITATION_W 3
+
+#define CHATEAU_H 6
+#define CHATEAU_W 4
+
+#define CASERNE_H 4
+#define CASERNE_W 6
+
+#define CENTRALE_H 6
+#define CENTRALE_W 4
+
+#define INFINI 10000
+
+#define EN_FEU 1
+#define PAS_EN_FEU 0
+
+#define DUREE_CYCLE 15
+
+#define TAILLE_INITIALE_COLLECTION 10
+
+#define NB_HABITANTS_RUINE 0
+#define NB_HABITANTS_TERRAIN_VAGUE 0
+#define NB_HABITANTS_CABANE 10
+#define NB_HABITANTS_MAISON 50
+#define NB_HABITANTS_IMMEUBLE 100
+#define NB_HABITANTS_GRATTECIEL 1000
+
+#define STADE_RUINE 0
+#define STADE_TERRAIN_VAGUE 1
+#define STADE_CABANE 2
+#define STADE_MAISON 3
+#define STADE_IMMEUBLE 4
+#define STADE_GRATTECIEL 5
+
+#define NB_IMG_ROUTES 11
+#define NB_IMG_CABANES 2
+#define NB_IMG_MAISONS 2
+#define NB_IMG_IMMEUBLES 2
+#define NB_IMG_GRATTECIELS 2
+
+#define NIVEAU_SOL 0
+#define NIVEAU_EAU 1
+#define NIVEAU_ELEC 2
+
+#define NB_NIVEAUX 3
+
+#define BOUTON_AJOUTER_ROUTE 0
+#define BOUTON_AJOUTER_HABITATION 1
+#define BOUTON_AJOUTER_CHATEAU 2
+#define BOUTON_AJOUTER_CENTRALE 3
+#define BOUTON_AJOUTER_CASERNE 4
+#define BOUTON_NIVEAU_SOL 5
+#define BOUTON_NIVEAU_EAU 6
+#define BOUTON_NIVEAU_ELEC 7
+#define BOUTON_PAUSE 8
+#define BOUTON_SAUVEGARDER 9
+
+#define TYPE_ROUTE_VERTICALE 0
+#define TYPE_ROUTE_HORIZONTALE 1
+#define TYPE_ROUTE_BAS_GAUCHE 2
+#define TYPE_ROUTE_BAS_DROITE 3
+#define TYPE_ROUTE_HAUT_GAUCHE 4
+#define TYPE_ROUTE_HAUT_DROITE 5
+#define TYPE_ROUTE_DROITE_BAS_HAUT 6
+#define TYPE_ROUTE_GAUCHE_BAS_HAUT 7
+#define TYPE_ROUTE_GAUCHE_DROITE_HAUT 8
+#define TYPE_ROUTE_GAUCHE_DROITE_BAS 9
+#define TYPE_ROUTE_INTERSECTION 10
+
+/************************************************/
+
+#endif // DEFINE_H_INCLUDED

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ECEcity" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ECEcity" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="alleg44" />
+					<Add library="libComdlg32.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ECEcity" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="alleg44" />
+					<Add library="libComdlg32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="bfs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bfs.h" />
+		<Unit filename="boitaoutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="boitaoutil.h" />
+		<Unit filename="case.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="case.h" />
+		<Unit filename="caserne.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="caserne.h" />
+		<Unit filename="centrale.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="centrale.h" />
+		<Unit filename="chateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="chateau.h" />
+		<Unit filename="collection_casernes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="collection_casernes.h" />
+		<Unit filename="collection_centrales.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="collection_centrales.h" />
+		<Unit filename="collection_chateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="collection_chateau.h" />
+		<Unit filename="collection_habitations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="collection_habitations.h" />
+		<Unit filename="compalleg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="compalleg.h" />
+		<Unit filename="date.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="date.h" />
+		<Unit filename="define.h" />
+		<Unit filename="editeur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="editeur.h" />
+		<Unit filename="file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file.h" />
+		<Unit filename="file_explorer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file_explorer.h" />
+		<Unit filename="graphismes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphismes.h" />
+		<Unit filename="habitation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="habitation.h" />
+		<Unit filename="liste_generique_simple_chainage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="liste_generique_simple_chainage.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Unit filename="route.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="route.h" />
+		<Unit filename="terrain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain.h" />
+		<Unit filename="ville.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ville.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
